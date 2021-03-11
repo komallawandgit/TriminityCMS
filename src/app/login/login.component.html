@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div>
+            <h1>Login</h1>
+              User Name : <input type="text" class="form-control" name="username" [(ngModel)]="model.username">
+              Password : <input type="password" class="form-control" name="password" [(ngModel)]="model.password">
+          </div>
+          <button (click)="checkLogin()" class="btn btn-success">Login</button>
+          <a routerLink="/forgot" routerLinkActive="active">FORGET PASSWORD</a>
+    
+      </div>
+      <div class="col-md-4"></div>
+  </div>
+ </div>
+<router-outlet></router-outlet>
+
+
+

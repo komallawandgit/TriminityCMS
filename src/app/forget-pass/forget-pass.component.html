@@ -1,0 +1,16 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <h2>Change Password</h2><br><br>
+            <p>New Password</p>
+            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" #newPassword>
+            <p>Re-enter New Password</p>
+            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password" #reNewPassword>
+            <button type="submit" class="btn btn-primary"  (click)="changePassword(newPassword,reNewPassword)">Submit</button>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+    
